@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<pretext xmlns:xi="http://www.w3.org/2001/XInclude" xml:lang="en-US">
+
+  <docinfo>
+
+    <macros>
+    </macros>
+
+    <latex-image-preamble>
+    </latex-image-preamble>
+  </docinfo>
+
+  <book xml:id="EPaDelHistory">
+    <title>EPADEL:A Semisesquicentennial History, 1926-2000</title>
+    <!-- <title>EPADEL, The Centennial Era: 2001-2026</title> -->
+    <frontmatter xml:id="FrontMatter" xmlns:xi="http://www.w3.org/2001/XInclude">
+      <bibinfo>
+        <author>
+          <personname>
+            David E. Zitarelli
+          </personname>
+          <institution>
+            Temple University
+          </institution>
+        </author>
+        <!-- <author> -->
+        <!--   <personname>Eugene Boman</personname> -->
+        <!--   <!-\- <department>My department</department> -\-> -->
+        <!--   <institution>The Pennsylvania State University</institution> -->
+        <!-- </author> -->
+
+        <date>2001</date>
+        <!-- <date><today/></date> -->
+        <edition>
+          First
+        </edition>
+
+        <!-- <website> -->
+        <!--   <name><c>my-website.org</c></name> -->
+        <!--   <address>http://personal.psu.edu/ecb5/DiffCalc.pdf</address> -->
+        <!-- </website> -->
+
+        <copyright>
+          <!-- In addition to specifying the copyright holder, you should  -->
+          <!-- include a license, such as the cc-by-sa license shown below -->
+          <!-- so people reading your book know how they can use it.       -->
+          <year>2020<ndash/>2024</year>
+          <holder>Eugene Boman and Doug Ensley</holder>
+          <minilicense><!-- <image source="DC/images/by-nc.png" /> --></minilicense>
+          <shortlicense>
+            <!-- <image source="DC/images/by-nc.png" width="15%"/> -->
+            This work is licensed under the Creative Commons
+            Attribution-ShareAlike 4.0 International License.  To view a
+            copy of this license, visit
+            <url 
+                href="http://creativecommons.org/licenses/by-nc/4.0/"
+                visual="creativecommons.org/licenses/by-nc/4.0">
+            CreativeCommons.org</url>
+          </shortlicense>
+        </copyright>
+      </bibinfo>
+      <titlepage>
+        <titlepage-items />
+      </titlepage>
+
+      <colophon label="front-colophon">
+        <colophon-items />
+      </colophon>
+
+
+
+      <!-- </titlepage> -->
+      <!-- <colophon xml:id="front-colophon" > -->
+      <!--   <copyright> -->
+      <!--         <year>2001</year> -->
+      <!--     <holder>David Zitarelli</holder> -->
+      <!--   </copyright> -->
+      <!-- </colophon> -->
+
+      <xi:include href="./Introduction.ptx" />
+      <xi:include href="./Preface.ptx" />
+    </frontmatter>
+      
+    <xi:include href="./Background.ptx" />
+    <xi:include href="./Founding.ptx" />
+    <xi:include href="./Establishment.ptx" />
+    <xi:include href="./Emigres.ptx" />
+    <xi:include href="./WWIIAndAfter.ptx" />
+    <xi:include href="./Expansion.ptx" />
+    <xi:include href="./EPADEL.ptx" />
+    <xi:include href="./SpringMeetings.ptx" />
+    <xi:include href="./Centennial.ptx" />
+
+
+    <backmatter>
+      <title>Appendices</title>
+      <xi:include href="./Appendix1.ptx" />
+      <xi:include href="./Appendix2.ptx" />
+      <xi:include href="./Appendix3.ptx" />
+      <xi:include href="./Appendix4.ptx" />
+      <xi:include href="./Appendix5.ptx" />
+      <xi:include href="./Appendix6.ptx" />
+
+      <index>
+        <title>Index</title>
+        <index-list />
+      </index>
+    </backmatter>
+
+  </book>
+
+</pretext>
+

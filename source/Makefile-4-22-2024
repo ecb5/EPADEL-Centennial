@@ -1,0 +1,29 @@
+all: print latex web view
+
+jing: *.ptx 
+	jing ThirdMill.ptx
+
+pdf: *.ptx Makefile
+	/home/ecb5/.local/bin/pretext build print
+
+latex: *.ptx 
+	/home/ecb5/.local/bin/pretext build print-latex
+
+print: *.ptx Makefile
+	/home/ecb5/.local/bin/pretext build print
+#	/home/ecb5/.local/bin/pretext view print
+
+web: *.ptx  Makefile
+	/home/ecb5/.local/bin/pretext build web
+
+webview: *.ptx  Makefile
+	/home/ecb5/.local/bin/pretext build web
+	/home/ecb5/.local/bin/pretext view web
+
+view: *.ptx  Makefile
+	/home/ecb5/.local/bin/pretext view web
+
+viewpdf: print
+	evince ../output/print/main.pdf
+
+
